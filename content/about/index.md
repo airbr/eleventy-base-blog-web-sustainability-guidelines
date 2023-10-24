@@ -1,9 +1,10 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: About Me
+  key: About This Project
   order: 3
 ---
-# About Me
 
-I am a person that writes stuff.
+My name is [Morgan](https://morganwebdev.com). I am working on web sustainability in my spare time and this is an experiment with the JSON API provided by the WSG.
+
+The data this website uses is a current version of the JSON provided by the Sustainable Web Design Community Group.

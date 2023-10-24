@@ -65,6 +65,11 @@ module.exports = function(eleventyConfig) {
 		return Math.min.apply(null, numbers);
 	});
 
+	eleventyConfig.addFilter('stringify', (data) => {
+		return JSON.stringify(data, null, "\t")
+	})
+
+
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();
