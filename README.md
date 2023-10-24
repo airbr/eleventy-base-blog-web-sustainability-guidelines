@@ -1,22 +1,8 @@
-```
----
-# pagination:
-#     data: deviceDescriptorsSource
-#     size: 1
-#     alias: device
-#     addAllPagesToCollections: true
-# permalink: "device/{{ device | slugify }}/"
-# tags: posts
-# date: ""
-# eleventyComputed:
-#   title: "{{ device }}"
-# draft: true
----
 
-{{ deviceDescriptorsSource[device].userAgent }}
-```
+# A test repo 
 
 
+# Below original README:
 
 # eleventy-base-blog v8
 
